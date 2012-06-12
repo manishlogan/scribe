@@ -6,6 +6,7 @@ import org.scribe.model.Token;
 public class TripItAPI extends DefaultApi10a{
 	/**
 	 * Authorization URL used to obtain Verifier for the application
+	 * For a web-based application, change the oauth_callback from oob to the websites url.
 	 * */
 	private static String AUTHORIZATION_URL = "https://www.tripit.com/oauth/authorize?oauth_token=%s"+"&oauth_callback=oob";
 	
